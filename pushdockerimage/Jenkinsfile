@@ -24,7 +24,7 @@ pipeline {
             }
         stage('Docker Push') {
             steps { 
-		sh 'docker vanshu009/jenkinstest'    
+		sh 'docker push vanshu009/jenkinstest'    
                 //sh 'docker push vanshu009/jenkinstest0:$BUILD_NUMBER'
                 }
             }
